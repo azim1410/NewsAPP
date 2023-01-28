@@ -1,0 +1,81 @@
+
+
+body{
+  background-color: rgba(0, 0, 0, 0.858);
+  align-items: baseline;
+  flex-wrap: wrap;
+  
+}
+h1{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+img{
+  width: 100px;
+}
+
+.navbar{
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  background-color: black;
+}
+
+.navbar-brand{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  align-items: center;
+  /* box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.card-title{
+  font-weight: 600;
+}
+
+.card-img-top{
+  
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.textDate{
+  color: rgba(199, 199, 199, 0.564);
+}
+
+.card{
+  
+  display:inline-flex;
+  color: white;
+  background-color: rgba(52, 52, 52, 0.51);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 6px 6px 20px 6px rgba(0, 0, 0, 0.19);
+}
+.btn{
+
+  font-weight: 500;
+  background-color: rgb(216, 216, 216);
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btnd{
+  width: 10rem;
+  
+  height: 3rem;
+  font-weight: 500;
+  background-color: rgb(249, 249, 249);
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btnd:hover{
+  background-color: rgb(247, 75, 75);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgb(240, 82, 82), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.btn:hover{
+  
+  background-color: rgb(247, 75, 75);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgb(240, 82, 82), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
